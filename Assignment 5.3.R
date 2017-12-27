@@ -27,3 +27,4 @@ paste(mtcars$mpg) # just prints / shows the actual elemnts
 # 4. Introduce a separator when concatenating the strings.
 
 paste(rownames(mtcars[1,]), rownames(mtcars[10,]), sep = " ")
+paste(rownames(mtcars[1,]), rownames(mtcars[10,]), sep = ",")
